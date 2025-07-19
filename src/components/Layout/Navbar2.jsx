@@ -68,74 +68,35 @@ export function Navbar2() {
           </MobileNavHeader>
 
           <MobileNavMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)}>
-            {/* Mobile Navigation Links (no loop, explicit links, using divs) */}
-            <div
-              role="button"
-              tabIndex={0}
-              onClick={() => {
-                setIsMobileMenuOpen(false);
-                navigate("/");
-              }}
-              onKeyDown={e => {
-                if (e.key === "Enter" || e.key === " ") {
+            {navItems.map((item, idx) => (
+              <a
+                key={`mobile-link-${idx}`}
+                href={item.link}
+                onClick={() => {
                   setIsMobileMenuOpen(false);
-                  navigate("/");
-                }
-              }}
-              className="relative text-neutral-600 dark:text-neutral-300 cursor-pointer focus:outline-none"
-            >
-              <span className="block">Home</span>
-            </div>
-            <div
-              role="button"
-              tabIndex={0}
-              onClick={() => {
-                setIsMobileMenuOpen(false);
-                navigate("/about");
-              }}
-              onKeyDown={e => {
-                if (e.key === "Enter" || e.key === " ") {
-                  setIsMobileMenuOpen(false);
-                  navigate("/about");
-                }
-              }}
-              className="relative text-neutral-600 dark:text-neutral-300 cursor-pointer focus:outline-none"
-            >
-              <span className="block">About</span>
-            </div>
-            <div
-              role="button"
-              tabIndex={0}
-              onClick={() => {
-                setIsMobileMenuOpen(false);
-                navigate("/services");
-              }}
-              onKeyDown={e => {
-                if (e.key === "Enter" || e.key === " ") {
-                  setIsMobileMenuOpen(false);
-                  navigate("/services");
-                }
-              }}
-              className="relative text-neutral-600 dark:text-neutral-300 cursor-pointer focus:outline-none"
-            >
-              <span className="block">Services</span>
-            </div>
-            <div
-              role="button"
-              tabIndex={0}
-              onClick={() => {
-                setIsMobileMenuOpen(false);
-                navigate("/contact");
-              }}
-              onKeyDown={e => {
-                if (e.key === "Enter" || e.key === " ") {
-                  setIsMobileMenuOpen(false);
+                  if (item.link.startsWith("#")) {
+                    const section = document.querySelector(item.link);
+                    if (section) {
+                      section.scrollIntoView({ behavior: "smooth" });
+                    }
+                  } else {
+                    navigate(item.link);
+                  }
+                }}
+                className="relative text-neutral-600 dark:text-neutral-300">
+                <span className="block">{item.name}</span>
+              </a>
+            ))}
+            <div className="flex w-full flex-col gap-4">
+              
+              <NavbarButton
+                onClick={() => {
                   navigate("/contact");
-                }
-              }}
-              className="relative text-neutral-600 dark:text-neutral-300 cursor-pointer focus:outline-none"
-            >
-              <span className="block">Contact</span>
+                }}
+                variant="primary"
+                className="w-full">
+                Contact Us
+              </NavbarButton>
             </div>
           </MobileNavMenu>
         </MobileNav>
@@ -143,7 +104,4 @@ export function Navbar2() {
     </div>
   );
 }
-
-
-
 
