@@ -84,8 +84,7 @@ export const NavBody = ({
 
 export const NavItems = ({
   items,
-  className,
-  onItemClick
+  className
 }) => {
   const [hovered, setHovered] = useState(null);
   const navigate = useNavigate();
@@ -101,7 +100,6 @@ export const NavItems = ({
         <div
           onMouseEnter={() => setHovered(idx)}
           onClick={() => {
-            onItemClick();
             navigate(item.link);
           }}
           className="relative px-4 py-2 text-neutral-600 dark:text-neutral-300 cursor-pointer"
@@ -110,7 +108,6 @@ export const NavItems = ({
           tabIndex={0}
           onKeyDown={e => {
             if (e.key === "Enter" || e.key === " ") {
-              onItemClick();
               navigate(item.link);
             }
           }}

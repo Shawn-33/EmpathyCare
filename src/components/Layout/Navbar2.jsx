@@ -69,9 +69,10 @@ export function Navbar2() {
 
           <MobileNavMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)}>
             {navItems.map((item, idx) => (
-              <a
+              <div
                 key={`mobile-link-${idx}`}
-                href={item.link}
+                role="button"
+                tabIndex={0}
                 onClick={() => {
                   setIsMobileMenuOpen(false);
                   if (item.link.startsWith("#")) {
@@ -83,9 +84,23 @@ export function Navbar2() {
                     navigate(item.link);
                   }
                 }}
-                className="relative text-neutral-600 dark:text-neutral-300">
+                onKeyDown={e => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    setIsMobileMenuOpen(false);
+                    if (item.link.startsWith("#")) {
+                      const section = document.querySelector(item.link);
+                      if (section) {
+                        section.scrollIntoView({ behavior: "smooth" });
+                      }
+                    } else {
+                      navigate(item.link);
+                    }
+                  }
+                }}
+                className="relative text-neutral-600 dark:text-neutral-300 cursor-pointer focus:outline-none"
+              >
                 <span className="block">{item.name}</span>
-              </a>
+              </div>
             ))}
             <div className="flex w-full flex-col gap-4">
               
