@@ -1,6 +1,29 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
+import over1 from '../assets/over1.jpg';
+import over2 from '../assets/over2.jpg';
+import over3 from '../assets/over3.jpg';
+import deme1 from '../assets/deme1.webp';
+import deme2 from '../assets/deme2.jpg';
+import deme3 from '../assets/deme3.jpg';
+import deme4 from '../assets/deme4.jpg';
+import deme5 from '../assets/deme5.jpg';
+import strock1 from '../assets/strock1.jpg'
+import strock2 from '../assets/strock2.jpg';
+import strock3 from '../assets/strock3.jpg';
+import strock4 from '../assets/strock4.jpg';
+import com from '../assets/com.avif';
+import chom from '../assets/chom.jpg';
+import par1 from '../assets/par1.png';
+import par2 from '../assets/par2.jpg';
+import par3 from '../assets/par3.jpg';
+import par4 from '../assets/par4.jpg';
+import dis1 from '../assets/dis1.jpg';
+import dis2 from '../assets/dis2.jpg';
+import dis3 from '../assets/dis3.jpg';
+import liv1 from '../assets/liv1.jpg';
+import liv2 from '../assets/liv2.jpg';
 
 const fadeIn = {
   initial: { opacity: 0, y: 30 },
@@ -20,7 +43,7 @@ While many people find that care homes meet their needs, not everyone is a good 
 Angel Carers provides you with customized, on-demand, one-on-one support help in your home. We give you the care you need to keep your independence and uniqueness.   
 
 The benefits to the elderly's mental health are invaluable, and constancy and familiarity are especially crucial for dementia patients.`,
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1000",
+      image: liv1,
       moreDescription: [
         {
           title: "Individualized one-on-one care",
@@ -30,7 +53,7 @@ We at Angel Carers provide live-in care around-the-clock in the safety of the fa
 
 
 Our comprehensive evaluation and care plans guarantee that our services are precisely customized to meet your needs—always with a smile.`,
-          image: "https://plus.unsplash.com/premium_photo-1661274147223-116687829d26?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWxkZXJseSUyMGNhcmV8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=3000"
+          image: liv2
         },
       ]
     },
@@ -41,18 +64,18 @@ Our comprehensive evaluation and care plans guarantee that our services are prec
 Angel Carers provides attentive and compassionate overnight care tailored to your unique needs. Our caregivers are trained to handle night-time routines with discretion and care, allowing you and your loved ones to rest easy.
 
 This service is particularly beneficial for those recovering from illness, living with dementia, or prone to nighttime anxiety or wandering.`,
-  image: "https://www.homechoices.org/wp-content/uploads/2023/09/overnight-caregiver-adjusting-patients-pillow-before-bed-for-a-good-nights-sleep.jpg",
+  image: over1,
   moreDescription: [
     {
       title: "Peace of Mind Through the Night",
       description: `One of the greatest concerns for families is ensuring their loved ones are safe during the night. With overnight care from Angel Carers, a trained professional is always present to respond to any need—whether it's an emergency or just a reassuring presence. This constant support not only enhances safety but also allows family members to get a good night’s sleep, knowing someone trustworthy is watching over their loved one.`,
-      image: "https://grannynannies.com/assets/img/Services/Overnight-Assistance.jpg"
+      image: over2
     },
     {
       title: "Support for Night-Time Needs",
       description: `As we age or recover from an illness, night-time routines can become more challenging. Tasks like getting to the bathroom, taking scheduled medication, or shifting positions in bed may require assistance. Our caregivers are trained to handle all these tasks calmly and professionally, helping reduce risks like falls or medication errors. With this level of care, our clients enjoy better comfort and uninterrupted rest through the night.`,
-      image: "https://assistinghands.com/5/wp-content/uploads/sites/27/2020/04/Overnight-Caregiver-1536x1024.jpg"
-    },
+      image: over3
+    }
   ]
 }
 ,
@@ -63,27 +86,27 @@ This service is particularly beneficial for those recovering from illness, livin
 Our trained caregivers understand the complexities of dementia and offer consistent, one-on-one support tailored to the unique needs of each individual. From helping with daily tasks to providing emotional reassurance, we create a structured and familiar environment that promotes comfort and security.
 
 Whether it’s early-stage memory loss or more advanced cognitive decline, we’re here to help individuals and their families navigate the journey with respect and empathy.`,
-  image: "https://www.helpguide.org/wp-content/uploads/2023/02/Alzheimers-Behavior-Management-1536x1023.jpeg",
+  image: deme1,
   moreDescription: [
     {
       title: "Trained and Compassionate Dementia Specialists",
       description: `Our caregivers receive dedicated training in dementia care, equipping them to handle both the practical and emotional challenges that may arise. We focus not only on physical assistance, but also on understanding behavioral changes, communication needs, and emotional well-being. Each caregiver builds a trusting relationship with the person they support, helping to reduce confusion, anxiety, and frustration—common symptoms for those living with dementia.`,
-      image: "https://images.unsplash.com/photo-1588776814576-57ec4c56077f?q=80&w=1000"
+      image: deme2
     },
     {
       title: "Consistency and Familiarity at Home",
       description: `People with dementia often thrive best in a stable and familiar environment. That’s why our dementia care is provided directly in the comfort of the client's home, preserving their routines and surroundings. By avoiding the disruption of moving to a care facility, we help reduce stress and allow individuals to continue engaging with their personal belongings, cherished pets, and favorite spaces—keeping their identity and independence intact.`,
-      image: "https://images.unsplash.com/photo-1597452486112-42a82357d8d7?q=80&w=1000"
+      image: deme3
     },
     {
       title: "Daily Structure and Gentle Encouragement",
       description: `A consistent daily routine can bring comfort and clarity to someone living with dementia. Our caregivers support individuals with structured activities such as meal preparation, light exercise, personal hygiene, and memory games—while offering gentle encouragement and praise. This supportive rhythm helps reduce agitation and gives clients a greater sense of purpose and accomplishment each day.`,
-      image: "https://images.unsplash.com/photo-1629724056644-193faabeb0b3?q=80&w=1000"
+      image: deme4
     },
     {
       title: "Family Support and Peace of Mind",
       description: `Dementia affects not just the individual but the entire family. We work closely with families to ensure they feel informed, supported, and confident in the care their loved one receives. Our team regularly updates families, offers guidance, and provides emotional support—easing the caregiving burden and allowing loved ones to focus on quality time together, rather than managing complex care needs alone.`,
-      image: "https://images.unsplash.com/photo-1559589689-577aabd1e47f?q=80&w=1000"
+      image: deme5
     }
   ]
 }
@@ -95,22 +118,22 @@ Whether it’s early-stage memory loss or more advanced cognitive decline, we’
 Whether the stroke has caused mobility issues, speech difficulties, or cognitive changes, our experienced caregivers are trained to provide practical support, emotional reassurance, and therapeutic assistance—all from the comfort and familiarity of home.
 
 Our stroke care plans are tailored to the individual's condition, recovery goals, and lifestyle preferences, ensuring a compassionate and goal-oriented approach to rehabilitation.`,
-  image: "https://astarcareservices.co.uk/wp-content/uploads/2024/11/stroke-care-patient-and-carer.jpg",
+  image: strock1,
   moreDescription: [
     {
       title: "Specialized Post-Stroke Support at Home",
       description: `The home environment plays a vital role in stroke recovery. Our caregivers provide personalized support with daily tasks such as bathing, dressing, grooming, and meal preparation—while ensuring the home remains safe and accessible. With encouragement and gentle assistance, we help individuals rebuild routines and maintain as much independence as possible during their rehabilitation journey.`,
-      image: "https://c-care.ca/wp-content/webp-express/webp-images/uploads/2023/09/Stroke-Nursing-Support-Care.jpg.webp"
+      image: strock2
     },
     {
       title: "Mobility and Rehabilitation Assistance",
       description: `Regaining mobility after a stroke often requires physical therapy and consistent encouragement. Our carers assist with exercise routines, guided movements, and coordination activities recommended by physiotherapists. Whether using a walker, wheelchair, or simply learning to walk again, we are there every step of the way—providing support with balance, strength, and confidence.`,
-      image: "https://sukinohealthcare.com/wp-content/uploads/2024/02/Stroke-Rehabilitation-Exercises-for-a-Quickly-Recovery.png"
+      image: strock4
     },
     {
       title: "Speech and Cognitive Support",
       description: `Strokes can impact speech, memory, and thinking. Our caregivers are trained to engage individuals in simple communication exercises and mental stimulation tasks to support their cognitive and language recovery. We create a calm, positive environment that promotes progress at a comfortable pace—always respecting the individual’s dignity and emotional state.`,
-      image: "https://origamicare.com.au/wp-content/uploads/2023/09/1-LowSize.jpg"
+      image: strock3
     },
   ]
 }
@@ -121,12 +144,12 @@ Our stroke care plans are tailored to the individual's condition, recovery goals
   description: `Loneliness and isolation can have a serious impact on a person's mental and physical health, especially in later life. Companionship care focuses on building meaningful relationships and ensuring that individuals feel valued, heard, and connected to the world around them.
 
 At Angel Carers, we understand that sometimes, what someone needs most is a friendly face, a listening ear, and a helping hand. Our companionship care services are tailored to provide emotional support and light assistance with everyday activities—encouraging joyful living, social interaction, and overall well-being.`,
-  image: "https://i.cbc.ca/1.5575385.1706896778!/fileImage/httpImage/image.jpeg_gen/derivatives/16x9_1180/loneliness-despression.jpeg?im=Resize%3D780",
+  image: com,
   moreDescription: [
     {
       title: "Meaningful Social Interaction",
       description: `Our caregivers are not just there to assist with tasks—they are there to build genuine relationships. From sharing meals and conversations to reminiscing over photo albums, companionship care is about bringing warmth, laughter, and social stimulation into the client’s daily life. This kind of interaction plays a vital role in reducing feelings of loneliness, depression, and isolation, especially for those living alone.`,
-      image: "https://images.livemint.com/img/2022/09/02/original/Being_a_caregiver_istockphoto_1662129610689.jpg"
+      image: chom
     },
   ]
 }
@@ -136,22 +159,22 @@ At Angel Carers, we understand that sometimes, what someone needs most is a frie
   description: `Parkinson’s disease is a progressive neurological condition that affects movement, coordination, and in some cases, cognitive ability. As the condition advances, individuals often require increasing levels of support to manage both motor symptoms and everyday activities.
 
 At Angel Carers, we provide dedicated, compassionate Parkinson’s care that is tailored to each stage of the condition. Our caregivers are specially trained to assist with the physical, emotional, and practical challenges associated with Parkinson’s—helping clients maintain their independence, dignity, and quality of life at home.`,
-  image: "https://healthmanagement.co.uk/wp-content/uploads/2022/01/Parkinsons-disease-insight.png",
+  image: par1,
   moreDescription: [
     {
       title: "Specialist Care for Motor Symptoms",
       description: `Parkinson’s can cause tremors, muscle stiffness, slow movement, and difficulty with balance. Our caregivers are trained to assist with mobility challenges in a safe and respectful manner. Whether it’s helping with walking, transferring, or using mobility aids, we ensure our clients move with confidence and reduce the risk of falls—always encouraging independence where possible.`,
-      image: "https://media.istockphoto.com/id/525586469/photo/male-physical-therapist.jpg?s=2048x2048&w=is&k=20&c=JxRyFJQzIXSCgGQzfe6fY5HyW96Nkyq1dO-dYJWSSh0="
+      image: par2
     },
     {
       title: "Medication and Routine Management",
       description: `Parkinson’s treatment often involves strict medication schedules that must be followed closely. Our carers ensure medications are taken at the right time and in the correct dosage, which is essential for managing symptoms effectively. We also help establish and maintain a structured daily routine to minimize stress and support physical and cognitive function.`,
-      image: "https://media.istockphoto.com/id/1140881598/photo/man-taking-daily-supplements-from-plastic-pill-organizer-box.jpg?s=2048x2048&w=is&k=20&c=o4MSfaiQqQFem4AUulpt3ngaFrjn0_ooNLVFTGWHbfQ="
+      image: par3
     },
     {
       title: "Support with Daily Living and Nutrition",
       description: `Everyday tasks like eating, dressing, or bathing can become difficult due to tremors and muscle rigidity. Our caregivers provide sensitive support with these activities, ensuring safety while encouraging involvement and self-care. We also assist with meal planning and preparation, focusing on balanced nutrition to support overall health and energy levels.`,
-      image: "https://media.istockphoto.com/id/905476864/photo/volunteer-and-senior-eating-lunch.jpg?s=2048x2048&w=is&k=20&c=obpJsq9Sre5idBH0krs_nNK-KOJE4a5qMtTTfED_R_U="
+      image: par4
     },
   ]
 }
@@ -161,18 +184,18 @@ At Angel Carers, we provide dedicated, compassionate Parkinson’s care that is 
   description: `Living with a disability can present unique daily challenges, but with the right support, individuals can lead rich, independent, and fulfilling lives. At Angel Carers, we are committed to providing personalized disability care that promotes dignity, autonomy, and inclusion.
 
 Whether the disability is physical, sensory, intellectual, or developmental, our compassionate caregivers work closely with each individual and their families to understand specific needs and deliver support that makes everyday life more manageable and empowering—all in the comfort of home.`,
-  image: "https://media.istockphoto.com/id/1053564580/photo/couple-hands-during-sunset.jpg?s=2048x2048&w=is&k=20&c=bHgc-8TjLt_ifBYkYkBxjNMpz9EEibI6bt0Lx9E7cEo=",
+  image: dis2,
   moreDescription: [
     {
       title: "Tailored Daily Living Support",
       description: `No two people experience disability in the same way. Our care is completely personalized—from help with dressing, bathing, and eating to managing medication and mobility aids. We respect each individual's routines, preferences, and pace, encouraging maximum independence while offering help where needed. It’s about enabling, not taking over.`,
-      image: "https://media.istockphoto.com/id/2200526317/photo/woman-helping-her-partner-tie-his-apron-preparing-to-clean-their-living-room.jpg?s=2048x2048&w=is&k=20&c=J9PnPN9Cl2sMneuMzggxFf8awB-DB2Pg1Op7Xj8zQLQ="
+      image: dis1
     },
     
     {
       title: "Accessible Home and Community Living",
       description: `Getting out and about shouldn’t be a barrier. We help clients stay connected to the world around them by assisting with transport, appointments, shopping, social visits, or hobbies. We also ensure the home environment is safe, accessible, and well-organized to support independent living—reducing stress and improving comfort for both clients and families.`,
-      image: "https://media.istockphoto.com/id/1427750314/photo/caring-mother-and-daughter-with-down-syndrome.jpg?s=2048x2048&w=is&k=20&c=2ZaCPZ-qbwBtZNEbJfX3-aKFtUaerC_rW-n1jKLCbA0="
+      image: dis3
     },
     
   ]
