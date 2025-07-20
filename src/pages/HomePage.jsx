@@ -178,6 +178,7 @@ moreDescription: [
     title: "Trained and Compassionate Dementia Specialists",
     description: `Our caregivers receive dedicated training in dementia care, equipping them to handle both the practical and emotional challenges that may arise. We focus not only on physical assistance, but also on understanding behavioral changes, communication needs, and emotional well-being. Each caregiver builds a trusting relationship with the person they support, helping to reduce confusion, anxiety, and frustration—common symptoms for those living with dementia.`,
     image: deme2
+    //jjkjk
   },
   {
     title: "Consistency and Familiarity at Home",
