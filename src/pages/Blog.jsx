@@ -56,8 +56,99 @@ By prioritizing education, we empower our caregivers to adapt to changing needs 
     tags: ["Training", "Quality", "Professional Development"],
     readingTime: "5 min read",
     link: "#"
+  },
+  {
+    title: "Empathy in Dementia Care: Why It Matters and How to Strengthen It",
+    date: "2024-01-01",
+    author: "Pam Brandon / Ageucate",
+    image: "https://www.alliancehomecare.com/wp-content/uploads/2023/03/Alliance-Blog-Images-February.jpeg",
+    summary: "As dementia rises, care providers must foster deep human connections through empathy to improve well‑being.",
+    content: `
+Dementia care is more than just providing physical support—it’s about fostering deep human connections through empathy. Understanding a person's history, personality, and emotional needs allows caregivers to truly meet them where they are.
+
+At Empathy Care, we incorporate empathy training in all our dementia care modules. This creates a foundation of trust and respect between caregiver and client, which is especially important for individuals experiencing memory loss or cognitive decline.
+    `,
+    tags: ["Empathy", "Dementia", "Caregiving"],
+    readingTime: "5 min read",
+    link: "#"
+  },
+  {
+    title: "Walking in Their Shoes: Empathy, the Key to Better Dementia Caregiving",
+    date: "2023-12-01",
+    author: "Ageucate Blog",
+    image: "https://carehop.ca/wp-content/uploads/young-woman-talking-to-elderly-woman-in-a-wheelcha-2023-11-27-05-25-08-utc-e1717190675138.jpg",
+    summary: "Discover how empathy can bridge emotional gaps and revolutionize dementia training and care.",
+    content: `
+Empathy helps caregivers better understand and respond to the emotional needs of people living with dementia. At Empathy Care, we simulate real-life challenges that clients face so that caregivers can literally “walk in their shoes.”
+
+This immersive training not only improves emotional intelligence but also equips our staff to offer more compassionate, person-centered support.
+    `,
+    tags: ["Empathy", "Training", "Dementia"],
+    readingTime: "4 min read",
+    link: "#"
+  },
+  {
+    title: "Caring for Dementia: Patience & Empathy",
+    date: "2024-02-24",
+    author: "Peter Abraham, Compassion Crossing",
+    image: "https://rothkofflaw.com/wp-content/uploads/2024/05/AdobeStock_272282775-scaled.jpeg",
+    summary: "Strategies highlighting patience, compassion and empathy to improve quality of life for people with dementia.",
+    content: `
+Providing dementia care requires immense patience. By blending structured routines with flexibility and empathy, caregivers can help maintain a sense of dignity and control for the individual.
+
+Our caregivers at Empathy Care receive ongoing education in managing behaviors compassionately, using non-verbal cues, and understanding unmet needs.
+    `,
+    tags: ["Dementia", "Compassion", "Empathy"],
+    readingTime: "6 min read",
+    link: "#"
+  },
+  {
+    title: "How Live‑In Care Improves Quality of Life for Seniors",
+    date: "2024-10-01",
+    author: "Dee Bustos / Care Indeed",
+    image: "https://g5-assets-cld-res.cloudinary.com/image/upload/x_0,y_376,h_3313,w_5876,c_crop/q_auto,f_auto,fl_lossy,c_fill,g_center,h_406,w_720/v1634141346/g5/g5-c-5ih92icfu-meridian-senior-living-single-domain/g5-cl-1jj0am3u1u-corporate/services/iStock-1138223885_dkagyk.jpg",
+    summary: "Live‑in care offers personalized support, companionship and independence to seniors at home.",
+    content: `
+Live-in care allows seniors to remain in the comfort of their own homes while receiving 24/7 personalized assistance. It promotes independence, ensures safety, and provides companionship.
+
+At Empathy Care, our live-in services are tailored to each individual, offering a seamless blend of support and freedom that fosters well-being and peace of mind.
+    `,
+    tags: ["Live‑in Care", "Independence", "Companionship"],
+    readingTime: "7 min read",
+    link: "#"
+  },
+  {
+    title: "Understanding Live‑In Care: What It Is and How It Works",
+    date: "2023-06-01",
+    author: "Caring Home Care",
+    image: "https://assurancehomecare.ca/wp-content/uploads/2025/04/Live-In-Care-vs.-Hourly-Care-Which-Fits-Your-Familys-Needs-1.jpg.webp",
+    summary: "A comprehensive overview of live‑in care services and how they differ from hourly care options.",
+    content: `
+Live-in care provides full-time support to individuals who need assistance throughout the day and night. It’s especially beneficial for those living alone or with complex care needs.
+
+At Empathy Care, we match clients with dedicated caregivers to ensure consistency, trust, and a personalized approach to daily living.
+    `,
+    tags: ["Live‑in Care", "Guide", "Support"],
+    readingTime: "5 min read",
+    link: "#"
+  },
+  {
+    title: "The Role of Compassion in Dementia Care: Connecting with Empathy",
+    date: "2023-04-01",
+    author: "IOA Dementia Team",
+    image: "https://www.dementia.org.au/_next/image?url=https%3A%2F%2Fwww.dementia.org.au%2Fsites%2Fdefault%2Ffiles%2F2024-02%2FLIQ25%2520-%2520a%2520group%2520hug.png&w=3840&q=75",
+    summary: "Explores the emotional side of dementia care and the importance of treating people with compassion.",
+    content: `
+Emotional connection is essential in dementia care. When caregivers lead with compassion and empathy, they can make meaningful connections that reduce anxiety and confusion.
+
+Empathy Care embraces this principle by offering caregivers emotional intelligence training and communication workshops that prioritize the human experience behind the condition.
+    `,
+    tags: ["Compassion", "Dementia", "Empathy"],
+    readingTime: "3 min read",
+    link: "#"
   }
 ];
+
 
 const cardVariants = {
   initial: { opacity: 0, y: 30, scale: 0.97 },

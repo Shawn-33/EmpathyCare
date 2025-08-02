@@ -253,15 +253,15 @@ Whether the disability is physical, sensory, intellectual, or developmental, our
           alt="Elderly care at home"
           className="w-full md:w-1/2 h-80 object-cover rounded-lg"
         />
-        <div className="md:w-1/2">
+        <div className="md:w-1/2"> 
           <h2 className="text-3xl font-bold mb-4 text-gray-800">
             Exceptional care in the comfort of your own home
           </h2>
           <p className="text-gray-700 mb-4">
-            At Angel Carers, we provide exceptional 24-hour Live-in Care and Domiciliary Care, ensuring comfort and security in your own home. Our comprehensive care services include bespoke 24-hour care, personalised Home Help for the elderly, and flexible Hourly Care starting from just 30 minutes per visit. Additionally, we offer Day and Night Sitting Services and Respite Care, tailored to meet your specific needs with the highest level of compassion and professionalism.
+            At Empathy Care, serving Enfield, Haringey, and Walthamstow, we provide exceptional 24-hour Live-in Care and Domiciliary Care, ensuring comfort and security in your own home. Our comprehensive care services include bespoke 24-hour care, personalised Home Help for the elderly, and flexible Hourly Care starting from just 30 minutes per visit. Additionally, we offer Day and Night Sitting Services and Respite Care, tailored to meet your specific needs with the highest level of compassion and professionalism.
           </p>
           <p className="text-gray-700 mb-4">
-            Our <span className="font-semibold">Live-in Care Service</span> is available throughout the South of England, extending up to a 200-mile radius from our Head Office in Bridport, located in the Heart of Dorset. We also provide <span className="font-semibold">Hourly Visits</span> in Bridport, Lyme Regis, Charmouth, Beaminster including Burton Bradstock and surrounding villages.
+            Our <span className="font-semibold">Live-in Care Service</span> is available throughout North London, and we also provide <span className="font-semibold">Hourly Visits</span> in Enfield, Haringey, Walthamstow, and surrounding areas.
           </p>
           {/* <button
             className="bg-yellow-300 hover:bg-yellow-400 text-gray-900 font-semibold py-2 px-6 rounded-full shadow transition-colors"
@@ -270,6 +270,7 @@ Whether the disability is physical, sensory, intellectual, or developmental, our
             More about us
           </button> */}
         </div>
+
       </div>
       <motion.div
         id='services-grid'

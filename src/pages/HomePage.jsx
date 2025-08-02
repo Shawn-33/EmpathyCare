@@ -457,7 +457,7 @@ moreDescription: [
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-gray-800">1. Speak to our team</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Call our team of experts on <span className="font-semibold text-blue-700">0203 993 0428</span> to talk through your options and any questions you may have regarding your care.
+                    Call our team of experts on <span className="font-semibold text-blue-700">07920044621</span> to talk through your options and any questions you may have regarding your care.
                   </p>
                 </motion.div>
 
@@ -642,7 +642,7 @@ moreDescription: [
                 viewport={{ once: true }}
                 className="text-gray-700 text-lg mb-6 leading-relaxed"
               >
-                With over 30 years of experience in providing home care, we understand that everyone's needs are different. That's why we offer personalized care plans tailored to your specific requirements.
+                With over many years of experience in providing home care, we understand that everyone's needs are different. That's why we offer personalized care plans tailored to your specific requirements.
               </motion.p>
               
               <motion.p
@@ -726,7 +726,7 @@ moreDescription: [
                 viewport={{ once: true }}
                 className="text-gray-700 text-lg mb-6 leading-relaxed"
               >
-                At Helping Hands, we are more than just a care provider; we are a community dedicated to improving the lives of those we serve. Our team is passionate about making a difference and providing the highest quality of care.
+                At Empathy Care, we are more than just a care provider; we are a community dedicated to improving the lives of those we serve. Our team is passionate about making a difference and providing the highest quality of care.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0 }}

@@ -1,5 +1,6 @@
 import React from "react";
 import { DraggableCardContainer, DraggableCardBody } from "../components/ui/DragAbleCard";
+import { FaUser } from 'react-icons/fa';
 
 export function DraggableCardDemo() {
   const reviews = [
@@ -146,11 +147,14 @@ const cardVariants = {
                     {/* Header */}
                     <div className="border-green-300">
                       <div className="flex items-start space-x-4 mb-6">
-                      <img
+                      {/* <img
                         src={review.avatar}
                         alt={review.name}
                         className="w-12 h-12 rounded-full object-cover"
-                      />
+                      /> */}
+                      <div>
+                        <FaUser className="w-12 h-12 text-blue-600" />
+                      </div>
                       <div className="flex-1">
                         <h3 className="font-semibold text-gray-900 text-lg">{review.name}</h3>
                         <div className="flex items-center space-x-2 mb-1">

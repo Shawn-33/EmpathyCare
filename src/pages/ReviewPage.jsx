@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Layout from '../components/Layout/Layout';
+import { FaUser } from 'react-icons/fa';
 
 const reviews = [
   {
@@ -136,11 +137,14 @@ const ReviewPage = () => (
             >
               {/* Header */}
               <div className="flex items-start space-x-4 mb-6">
-                <img
-                  src={review.avatar}
-                  alt={review.name}
+                {/* <img
+                  src={FaUser}
+                  alt={FaUser}
                   className="w-12 h-12 rounded-full object-cover"
-                />
+                /> */}
+                <div className="flex-shrink-0">
+                  <FaUser className="w-12 h-12 text-blue-600" />
+                </div>
                 <div className="flex-1">
                   <h3 className="font-semibold text-gray-900 text-lg">{review.name}</h3>
                   <div className="flex items-center space-x-2 mb-1">
