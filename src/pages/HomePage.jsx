@@ -457,8 +457,13 @@ moreDescription: [
                   </div>
                   <h3 className="text-2xl font-bold mb-4 text-gray-800">1. Speak to our team</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Call our team of experts on <span className="font-semibold text-blue-700">07920044621</span> to talk through your options and any questions you may have regarding your care.
+                    Call our team of experts on{" "}
+                    <a href="tel:02088048773" className="font-semibold text-blue-700">
+                      02088048773
+                    </a>{" "}
+                    to talk through your options and any questions you may have regarding your care.
                   </p>
+
                 </motion.div>
 
                 {/* Home Section */}

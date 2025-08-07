@@ -30,7 +30,7 @@ Thank you for trusting us with your care.
     image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?q=80&w=1000",
     summary: "Our team's cultural and linguistic diversity helps us connect with every service user on a personal level.",
     content: `
-At HealthSync, we celebrate the unique backgrounds and languages of our caregivers. Our team speaks English, Bengali, Hindi, and Urdu, allowing us to provide culturally sensitive care to a wide range of service users.
+At Empathy Care, we celebrate the unique backgrounds and languages of our caregivers. Our team speaks English, Bengali, Hindi, and Urdu, allowing us to provide culturally sensitive care to a wide range of service users.
 
 We believe that understanding cultural traditions and values is essential to delivering person-centered care. Our caregivers regularly participate in training sessions to deepen their cultural competence and ensure that every individual feels respected and valued.
 
@@ -47,7 +47,7 @@ Diversity is not just a value—it's a strength that enriches our community and 
     image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?q=80&w=1000",
     summary: "Ongoing training ensures our caregivers are always prepared to deliver the highest standard of care.",
     content: `
-Quality care is built on a foundation of knowledge and skill. At HealthSync, we invest in continuous training for all our caregivers, covering topics such as safeguarding, medication management, and person-centered support.
+Quality care is built on a foundation of knowledge and skill. At Empathy Care, we invest in continuous training for all our caregivers, covering topics such as safeguarding, medication management, and person-centered support.
 
 Our training programs are designed to keep our team up-to-date with the latest best practices and regulatory standards. We also encourage professional development through workshops and certifications.
 

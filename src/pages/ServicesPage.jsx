@@ -40,7 +40,7 @@ function ServicesPage() {
 
 While many people find that care homes meet their needs, not everyone is a good fit for the set routine. Simple things like eating what you want, sleeping when you want, watching the TV you enjoy, and spending time with your cherished pet are all made possible by live-in care.
 
-Angel Carers provides you with customized, on-demand, one-on-one support help in your home. We give you the care you need to keep your independence and uniqueness.   
+Empathy Care provides you with customized, on-demand, one-on-one support help in your home. We give you the care you need to keep your independence and uniqueness.   
 
 The benefits to the elderly's mental health are invaluable, and constancy and familiarity are especially crucial for dementia patients.`,
       image: liv1,
@@ -49,7 +49,7 @@ The benefits to the elderly's mental health are invaluable, and constancy and fa
           title: "Individualized one-on-one care",
           description: `The individualized care you receive with live-in care is unmatched, even if the cost is close to that of care homes.
 
-We at Angel Carers provide live-in care around-the-clock in the safety of the family home. Our skilled employees live in the house and are available to assist with all daily duties, giving the family peace of mind and confidence around-the-clock.
+We at Empathy Care provide live-in care around-the-clock in the safety of the family home. Our skilled employees live in the house and are available to assist with all daily duties, giving the family peace of mind and confidence around-the-clock.
 
 
 Our comprehensive evaluation and care plans guarantee that our services are precisely customized to meet your needs—always with a smile.`,
@@ -254,7 +254,7 @@ Whether the disability is physical, sensory, intellectual, or developmental, our
           className="w-full md:w-1/2 h-80 object-cover rounded-lg"
         />
         <div className="md:w-1/2"> 
-          <h2 className="text-3xl font-bold mb-4 text-gray-800">
+          <h2 className="text-3xl  mb-4 text-gray-800">
             Exceptional care in the comfort of your own home
           </h2>
           <p className="text-gray-700 mb-4">

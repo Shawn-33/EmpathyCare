@@ -56,6 +56,7 @@ function Footer() {
               <li><a href="tel:07920044621" className="text-gray-400 hover:text-white">Phone: 07920044621</a></li>
               <li><a href="tel:02088048773" className="text-gray-400 hover:text-white">Mobile: 02088048773</a></li>
               <li><a href="mailto:empathycarecompanyltd@gmail.com" className="text-gray-400 hover:text-white">Email: empathycarecompanyltd@gmail.com</a></li>
+              <li>Address: 348 green street EN3 7SB, Enfield, UK</li>
               <li>Mon-Fri: 8:30am - 5:00pm</li>
             </ul>
           </div>

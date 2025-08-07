@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaPhone, FaUserCircle } from "react-icons/fa";
+import abul from "../assets/abul.jpg";
+import munna from "../assets/munna.jpg";
 
 const teamMembers = [
   {
@@ -8,7 +10,7 @@ const teamMembers = [
     title: "CQC Registered Care Manager",
     description:
       "Many years of experience in care industry and CQC qualified registered care manager. Responsible for overseeing the day-to-day management and quality of care provided in Empathy Care Company Ltd. Leading the team with experience and expertise.",
-    img: "/profile-placeholder.png",
+    img: munna,
     email: "",
     phone: "",
   },
@@ -23,10 +25,10 @@ const teamMembers = [
   },
   {
     name: "Abdul Hannan",
-    title: "Business Director",
+    title: "CIO and Business Director",
     description:
-      "Experienced Business Director with over 12 years experience in directing operations, leading staff, and developing strategies. Highly organised, results-driven and passionate about exceeding goals.",
-    img: "/profile-placeholder.png",
+      "Experienced Chief Information Officer with over 12 years experience in directing operations, leading staff, and information technology (IT) strategy and infrastructure. Highly organised, results-driven and passionate about exceeding goals.",
+    img: abul,
     email: "",
     phone: "",
   },
