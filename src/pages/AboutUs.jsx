@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FaEnvelope, FaPhone, FaUserCircle } from "react-icons/fa";
 import abul from "../assets/abul.jpg";
 import munna from "../assets/munna.jpg";
+import raju from "../assets/raju.jpg";
 
 const teamMembers = [
   {
@@ -19,7 +20,7 @@ const teamMembers = [
     title: "CEO",
     description:
       "Many years of experience in the healthcare sector. Responsible for making major corporate decisions, managing overall operations, and driving the organization's strategic direction.",
-    img: "/profile-placeholder.png",
+    img: raju,
     email: "",
     phone: "",
   },
@@ -37,7 +38,7 @@ const teamMembers = [
     title: "Managing Director",
     description:
       "Responsible for the day-to-day operations, strategic direction, and overall success of the company. Responsible for managing and motivating the company's employees, including hiring, training, and performance management.",
-    img: "/profile-placeholder.png",
+    img: munna,
     email: "",
     phone: "",
   },

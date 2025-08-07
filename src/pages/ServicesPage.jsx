@@ -61,14 +61,14 @@ Our comprehensive evaluation and care plans guarantee that our services are prec
   title: "Overnight Care",
   description: `For individuals who require support and reassurance during the night, overnight care is an ideal solution. Whether it's assistance with medication, help getting in and out of bed, or simply the peace of mind of having someone nearby, overnight care ensures comfort and safety throughout the night.
 
-Angel Carers provides attentive and compassionate overnight care tailored to your unique needs. Our caregivers are trained to handle night-time routines with discretion and care, allowing you and your loved ones to rest easy.
+Empathy Care Carers provides attentive and compassionate overnight care tailored to your unique needs. Our caregivers are trained to handle night-time routines with discretion and care, allowing you and your loved ones to rest easy.
 
 This service is particularly beneficial for those recovering from illness, living with dementia, or prone to nighttime anxiety or wandering.`,
   image: over1,
   moreDescription: [
     {
       title: "Peace of Mind Through the Night",
-      description: `One of the greatest concerns for families is ensuring their loved ones are safe during the night. With overnight care from Angel Carers, a trained professional is always present to respond to any need—whether it's an emergency or just a reassuring presence. This constant support not only enhances safety but also allows family members to get a good night’s sleep, knowing someone trustworthy is watching over their loved one.`,
+      description: `One of the greatest concerns for families is ensuring their loved ones are safe during the night. With overnight care from Empathy Care, a trained professional is always present to respond to any need—whether it's an emergency or just a reassuring presence. This constant support not only enhances safety but also allows family members to get a good night’s sleep, knowing someone trustworthy is watching over their loved one.`,
       image: over2
     },
     {
@@ -143,7 +143,7 @@ Our stroke care plans are tailored to the individual's condition, recovery goals
   title: "Companionship Care",
   description: `Loneliness and isolation can have a serious impact on a person's mental and physical health, especially in later life. Companionship care focuses on building meaningful relationships and ensuring that individuals feel valued, heard, and connected to the world around them.
 
-At Angel Carers, we understand that sometimes, what someone needs most is a friendly face, a listening ear, and a helping hand. Our companionship care services are tailored to provide emotional support and light assistance with everyday activities—encouraging joyful living, social interaction, and overall well-being.`,
+At Empathy Care, we understand that sometimes, what someone needs most is a friendly face, a listening ear, and a helping hand. Our companionship care services are tailored to provide emotional support and light assistance with everyday activities—encouraging joyful living, social interaction, and overall well-being.`,
   image: com,
   moreDescription: [
     {
@@ -158,7 +158,7 @@ At Angel Carers, we understand that sometimes, what someone needs most is a frie
   title: "Parkinson’s Care",
   description: `Parkinson’s disease is a progressive neurological condition that affects movement, coordination, and in some cases, cognitive ability. As the condition advances, individuals often require increasing levels of support to manage both motor symptoms and everyday activities.
 
-At Angel Carers, we provide dedicated, compassionate Parkinson’s care that is tailored to each stage of the condition. Our caregivers are specially trained to assist with the physical, emotional, and practical challenges associated with Parkinson’s—helping clients maintain their independence, dignity, and quality of life at home.`,
+At Empathy Care, we provide dedicated, compassionate Parkinson’s care that is tailored to each stage of the condition. Our caregivers are specially trained to assist with the physical, emotional, and practical challenges associated with Parkinson’s—helping clients maintain their independence, dignity, and quality of life at home.`,
   image: par1,
   moreDescription: [
     {

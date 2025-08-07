@@ -319,6 +319,10 @@ const ContactPage = () => {
               <a href="tel:02088048773" className="text-blue-600 font-bold text-lg hover:underline">
                 02088048773
               </a>
+              <span className="font-semibold text-gray-800">Mobile:</span>
+              <a href="tel:079200444621" className="text-blue-600 font-bold text-lg hover:underline">
+                079200444621
+              </a>
             </div>
           </div>
         </div>

@@ -126,7 +126,7 @@ const services = [
 
 While many people find that care homes meet their needs, not everyone is a good fit for the set routine. Simple things like eating what you want, sleeping when you want, watching the TV you enjoy, and spending time with your cherished pet are all made possible by live-in care.
 
-Angel Carers provides you with customized, on-demand, one-on-one support help in your home. We give you the care you need to keep your independence and uniqueness.   
+Empathy Care provides you with customized, on-demand, one-on-one support help in your home. We give you the care you need to keep your independence and uniqueness.   
 
 The benefits to the elderly's mental health are invaluable, and constancy and familiarity are especially crucial for dementia patients.`,
     image: liv1,
@@ -135,7 +135,7 @@ The benefits to the elderly's mental health are invaluable, and constancy and fa
         title: "Individualized one-on-one care",
         description: `The individualized care you receive with live-in care is unmatched, even if the cost is close to that of care homes.
 
-We at Angel Carers provide live-in care around-the-clock in the safety of the family home. Our skilled employees live in the house and are available to assist with all daily duties, giving the family peace of mind and confidence around-the-clock.
+We at Empathy Care provide live-in care around-the-clock in the safety of the family home. Our skilled employees live in the house and are available to assist with all daily duties, giving the family peace of mind and confidence around-the-clock.
 
 
 Our comprehensive evaluation and care plans guarantee that our services are precisely customized to meet your needs—always with a smile.`,
@@ -147,7 +147,7 @@ Our comprehensive evaluation and care plans guarantee that our services are prec
 title: "Overnight Care",
 description: `For individuals who require support and reassurance during the night, overnight care is an ideal solution. Whether it's assistance with medication, help getting in and out of bed, or simply the peace of mind of having someone nearby, overnight care ensures comfort and safety throughout the night.
 
-Angel Carers provides attentive and compassionate overnight care tailored to your unique needs. Our caregivers are trained to handle night-time routines with discretion and care, allowing you and your loved ones to rest easy.
+Empathy Care provides attentive and compassionate overnight care tailored to your unique needs. Our caregivers are trained to handle night-time routines with discretion and care, allowing you and your loved ones to rest easy.
 
 This service is particularly beneficial for those recovering from illness, living with dementia, or prone to nighttime anxiety or wandering.`,
 image: over1,
@@ -230,7 +230,7 @@ moreDescription: [
 title: "Companionship Care",
 description: `Loneliness and isolation can have a serious impact on a person's mental and physical health, especially in later life. Companionship care focuses on building meaningful relationships and ensuring that individuals feel valued, heard, and connected to the world around them.
 
-At Angel Carers, we understand that sometimes, what someone needs most is a friendly face, a listening ear, and a helping hand. Our companionship care services are tailored to provide emotional support and light assistance with everyday activities—encouraging joyful living, social interaction, and overall well-being.`,
+At Empathy Care, we understand that sometimes, what someone needs most is a friendly face, a listening ear, and a helping hand. Our companionship care services are tailored to provide emotional support and light assistance with everyday activities—encouraging joyful living, social interaction, and overall well-being.`,
 image: com,
 moreDescription: [
   {
@@ -245,7 +245,7 @@ moreDescription: [
 title: "Parkinson’s Care",
 description: `Parkinson’s disease is a progressive neurological condition that affects movement, coordination, and in some cases, cognitive ability. As the condition advances, individuals often require increasing levels of support to manage both motor symptoms and everyday activities.
 
-At Angel Carers, we provide dedicated, compassionate Parkinson’s care that is tailored to each stage of the condition. Our caregivers are specially trained to assist with the physical, emotional, and practical challenges associated with Parkinson’s—helping clients maintain their independence, dignity, and quality of life at home.`,
+At Empathy Care, we provide dedicated, compassionate Parkinson’s care that is tailored to each stage of the condition. Our caregivers are specially trained to assist with the physical, emotional, and practical challenges associated with Parkinson’s—helping clients maintain their independence, dignity, and quality of life at home.`,
 image: par1,
 moreDescription: [
   {
@@ -460,6 +460,10 @@ moreDescription: [
                     Call our team of experts on{" "}
                     <a href="tel:02088048773" className="font-semibold text-blue-700">
                       02088048773
+                    </a>{" "}
+                    and {" "}
+                    <a href="tel:07920044621" className="font-semibold text-blue-700">
+                      07920044621
                     </a>{" "}
                     to talk through your options and any questions you may have regarding your care.
                   </p>
